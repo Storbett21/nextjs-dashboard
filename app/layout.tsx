@@ -1,4 +1,4 @@
-// import '@/app/ui/global.css';
+import './ui/global.css';
 
 import { montserrat } from "./ui/fonts";
 
@@ -12,11 +12,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${montserrat.className} antialiased`}>
         <h1>Lograras Grandes Cosas no te rindas porfavor </h1>
-        <div style={{border: '1px solid #000'}}> 
-        {children}
-        </div>
+         {children}
+        <footer className='py-10 flex justify-center items-center'>
+          Hecho con Amor por MI 
+        </footer>
         </body>
     </html>
   );
