@@ -16,7 +16,7 @@ export default function RootLayout({
         <h1>Lograras Grandes Cosas no te rindas porfavor </h1>
          {children}
         <footer className='py-10 flex justify-center items-center'>
-          Hecho con ❤️ por MI 
+          
         </footer>
         </body>
     </html>
