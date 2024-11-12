@@ -36,7 +36,7 @@ export default function Page() {
           <Image
           src='/hero-mobile.png'
           alt='Screenshots of the dashboard'
-          width={560}
+          width={530}
           height={620}
           className='block md:hidden'
           />
